@@ -1,10 +1,10 @@
 # jupyter-hubify
 
-Intructions along with Script for Jupyter hub setup on Virtual Machine 
+Instructions along with Script for Jupyter hub setup on Virtual Machine 
 
 ## To make Script Executable
 
-### using `wget`
+### Using `wget`
 
 ```bash
 wget https://raw.githubusercontent.com/singh1203/jupyter-hubify/main/setup_jupyterhub.sh
