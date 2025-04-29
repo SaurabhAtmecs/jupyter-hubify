@@ -1,9 +1,11 @@
 apiVersion: backstage.io/v1alpha1
 kind: Component
 metadata:
-  name: my-backstage-service
-  description: My backstage service.
+  name: jupyter-hubify
+  description: A custom JupyterHub deployment with Backstage integration
+  annotations:
+    github.com/project-slug: SaurabhAtmecs/jupyter-hubify
 spec:
   type: service
-  owner: my-team
-  lifecycle: production
+  lifecycle: experimental
+  owner: user:guest
