@@ -1,0 +1,9 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: my-backstage-service
+  description: My backstage service.
+spec:
+  type: service
+  owner: my-team
+  lifecycle: production
