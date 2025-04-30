@@ -5,6 +5,7 @@ metadata:
   description: A custom JupyterHub deployment with Backstage integration
   annotations:
     github.com/project-slug: SaurabhAtmecs/jupyter-hubify
+    jenkins.io/job-full-name: demobackstage
 spec:
   type: service
   lifecycle: experimental
